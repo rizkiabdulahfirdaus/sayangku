@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #fdf0f3, #ffe4e1);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 100px 20px;
+  }
+
+  
+  h1 {
+    font-size: 3em;
+    color: #d6336c;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 10px 25px;
+    background-color: #ff85a2;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #d6336c;
+  }
+  
+  #quotes {
+    padding: 50px 20px;
+    background-color: #fff0f5;
+    text-align: center;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #c2185b;
+    font-size: 1.4em;
+    margin-top: 20px;
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .container {
+    animation: fadeInUp 1s ease-out;
+  }
+
+  .container img{
+    border-radius: 20px;
+    width: 500px;
+  }
+  #quotes {
+    animation: fadeInUp 2s ease-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+  }
+
+.image2 img{
+border-radius: 20px;
+}  
+
+  blockquote {
+    transition: transform 0.3s ease;
+  }
+  
+  blockquote:hover {
+    transform: scale(1.05) rotate(-1deg);
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffe0ec, #ffe8f0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #e91e63;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #d81b60;
+  }
+  
+  #quotes {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff0f5;
+    border-left: 5px solid #ff69b4;
+    border-radius: 10px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+
+  
+  @media screen and (max-width: 644px) {
+.container img{
+  width: 400px;
+}
+
+.image2 img{
+  width: 400px;
+  height: auto;
+
+}
+  }
